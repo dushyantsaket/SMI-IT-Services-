@@ -1,0 +1,25 @@
+{
+  "name": "simple-marketing-ideas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production monorepo for Simple Marketing Ideas — Digital Marketing & Software Development company",
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:web": "turbo run dev --filter=@smi/web",
+    "dev:api": "turbo run dev --filter=@smi/api",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "format": "turbo run format",
+    "test": "turbo run test",
+    "clean": "turbo run clean && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "prettier": "^3.2.5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@9.0.0"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@smi/config",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shared configuration for Simple Marketing Ideas monorepo",
+  "main": "index.js",
+  "exports": {
+    "./tailwind": "./tailwind.config.js",
+    "./eslint": "./eslint.config.js"
+  }
+}
